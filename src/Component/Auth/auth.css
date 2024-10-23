@@ -1,0 +1,27 @@
+.form-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 400px;
+    border: 1px solid black;
+    padding: 40px;
+}
+.form-button{
+    height: 50px;
+    background: yellow;
+    color: black;
+    font-size: 27px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+.form-card input[type="text"]{
+ height: 50px;
+ border-radius: 10px;
+
+}
+.form-card input:hover{
+    border: 1px solid blue;
+    
+   }
